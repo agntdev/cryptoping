@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/admin_stats",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Displays aggregate usage metrics for the bot owner"
+            }
+          }
+        ],
+        "send": {
+          "text": "/admin_stats"
+        }
+      }
+    ]
+  }
+]
